@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    background-color: white;
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    box-shadow:1px 2px 2px 3px hsl(221, 100%, 96%);
+    font-family: sans-serif;
+
+}
+.left{
+    background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.right{
+   
+    height: 400px;
+    width: 200px;
+    border-radius: 0 20px 20px 0;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content:space-evenly;
+    margin-left: 30px;
+}
+.bt1{
+    background-color:hsla(0, 100%, 67%, 0.179);
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color:hsl(0, 100%, 67%);
+    align-items: center;
+}
+.bt2{
+    background-color:hsla(39, 100%, 56%, 0.18);
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color:hsl(39, 100%, 56%);
+    align-items: center;
+}
+.bt3{
+    background-color:hsla(166, 100%, 37%, 0.186);
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color:hsl(166, 100%, 37%);
+    align-items: center;
+}
+.bt4{
+    background-color:hsla(234, 85%, 45%, 0.185);
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color:hsl(234, 85%, 45%);
+    align-items: center;
+}
+button{
+    background-color:hsl(224, 30%, 27%);
+    height: 30px;
+    border-radius: 10px;
+    color: white;
+}
+.san{
+    color:hsl(224, 30%, 27%);
+}
+.juz{
+    color: rgba(179, 178, 178, 0.915);
+}
+.all{
+    display: flex;
+    flex-direction: row;
+}
+.circle{
+    background-image:linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.circle h1{
+    color: white;
+}
+.gr{
+    color: white;
+}
+.left h2{
+    color: rgba(255, 255, 255, 0.517);
+}
+.p-cl{
+    color:rgba(255, 255, 255, 0.517);
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
